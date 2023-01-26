@@ -5,26 +5,30 @@ body {
     background:#fff;
     font-family: Times, Times New Roman, Georgia, serif;
     font-size: 15px;
-    }
-    #curriculo { /* estilo para a div com id currículo */
+}
+
+#curriculo { /* estilo para a div com id currículo */
     max-width: 100%;
     margin: 0 auto;
     padding: 20px;
     text-align:left;
     background:#fff;
-    }
-    .foto { /* estilo para a classe foto */
+}
+
+.foto { /* estilo para a classe foto */
     display: inline-block;
     width:180px;
-    }
-    header { /* estilo para a tag header */
+}
+
+header { /* estilo para a tag header */
     width: 22%;
      float: right;
     background:#f0f4fd;
     padding: 10px;
     border-radius: 12px;
-    }
-    address, section { /* estilos para as tags address e section */
+}
+
+address, section { /* estilos para as tags address e section */
     float: left;
     width: 70%;
     font-style:normal;
@@ -32,8 +36,9 @@ body {
     padding: 5px 20px 5px 20px;
     background:#f5f5f5;
     border-radius: 10px;
-    }
-    footer { /* estilo para a tag footer */
+}
+
+footer { /* estilo para a tag footer */
     width: 99%;
     background:#ddd;
     float: left;
@@ -41,71 +46,86 @@ body {
     margin-top: 20px;
     padding: 10px;
     text-align: right;
-    }
-    a:link, a:visited, a:active { /* estilo para o link */
+}
+
+a:link, a:visited, a:active { /* estilo para o link */
     text-decoration: none;
     color: #333333;
-    }
-    /* estilo para o link quando o cursor estiver sobre ele */
-    a:hover {
+}
+
+/* estilo para o link quando o cursor estiver sobre ele */
+a:hover {
     text-decoration: none;
     color: #444;
     text-shadow: 1px 1px 2px gray, 0 0 1em lightgray, 0 0 0.2em #ccc;
-    }
-    /* estilo para o link do footer */
-    footer a:link, footer a:visited, footer a:active {
+}
+
+/* estilo para o link do footer */
+footer a:link, footer a:visited, footer a:active {
     text-decoration: none;
     color: #333333;
-    }
+}
+
     /* estilo para o link do footer quando o cursor estiver sobre ele */
-    footer a:hover {
+footer a:hover {
     text-decoration: none;
     color: #ddd;
     background-color: #333333;
-    }
-    p {
+}
+
+p {
     text-align: justify;
-    }
-    h1 {
+}
+
+h1 {
     text-align: center;
     text-shadow: #444 5px 5px 25px;
     margin-top: 0px;
-    }
-    h2 {
+}
+    
+h2 {
     text-shadow: #222 5px 5px 25px;
     margin-top: 5px;
-    }
-    hr {
+}
+
+hr {
     display: none;
-    }
-    dl {
+}
+
+dl {
     padding: 0.5em;
-    }
-    dt {
+}
+
+dt {
     float: left;
     clear: left;
     width: 100px;
     text-align: right;
     font-weight: bold;
-    }
-    /* conteúdo que será inserido após o elemento da lista dt */
-    dt::after {
+}
+
+/* conteúdo que será inserido após o elemento da lista dt */
+dt::after {
     content: ":";
-    }
-    dd {
+}
+
+dd {
     margin: 0 0 0 110px;
     padding: 0 0 0.5em 0;
-    }
-    li {
+}
+
+li {
     text-align: justify;
-    }
-    table {
+}
+    
+table {
     margin-left: 30px;
-    }
-    table, td {
+}
+
+table, td {
     padding: 4px 25px 4px 15px;
     border: 1px solid;
     border-collapse: collapse;
     background:#eef0f6;
-    }
+}
         

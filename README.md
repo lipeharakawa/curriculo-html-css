@@ -7,7 +7,7 @@ Página Web com o meu Currículo feito em HTML e CSS<br/>
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>     |    
   <a href="#-projeto">Projeto</a>     |    
-  <a href="#-memo--licença">Licença</a>
+  <a href="#-licença">Licença</a>
 </p>
 
 <p align="center">
@@ -32,10 +32,10 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [ Visite o projeto online ](https://lipeharakawa.github.io/curriculo-html-css)
 
 
-## : memo : Licença
+## ✅ Licença
 
 Esse projeto está sob a licença MIT.
 
 ---
 
-Feito com 💖 por Felipe Seidi Harakawa 👋.
+Feito com 🧡 por Felipe Seidi Harakawa 👋.
