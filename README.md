@@ -30,6 +30,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
+Página Web com o meu Currículo feito em HTML e CSS.
+
 - [ Visite o projeto online ](https://lipeharakawa.github.io/curriculo-html-css)
 
 
