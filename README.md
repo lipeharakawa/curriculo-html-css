@@ -1,7 +1,7 @@
 <h1 align="center">Currículo de Felipe Seidi Harakawa</h1>
 
 <p align="center">
-Página Web com o meu Currículo feito em HTML e CSS<br/>
+Página Web do meu Currículo feito em HTML e CSS<br/>
 </p>
 
 <p align="center">
@@ -24,20 +24,22 @@ Página Web com o meu Currículo feito em HTML e CSS<br/>
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- HTML e CSS
-- Git e Github
+- HTML
+- CSS
+- Git
+- Github
 - Visual Studio Code
 
 ## 💻 Projeto
 
-Página Web com o meu Currículo feito em HTML e CSS.
+Página Web do meu Currículo feito em HTML e CSS, utilizando conceitos de HTML Semântico e CSS Flexbox. As seções são divididas em “cards” que se adaptam de acordo com as diferentes resoluções de telas (Responsivo).
 
 - [ Visite o projeto online ](https://lipeharakawa.github.io/curriculo-html-css)
 
 
 ## ✅ Licença
 
-Esse projeto está sob a licença MIT.
+© Esse projeto está sob a licença MIT.
 
 ---
 

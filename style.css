@@ -1,72 +1,83 @@
-/* estilo para o corpo do documento*/
+*{
+    box-sizing: border-box;
+}
+
 body {
-    margin:0;
-    padding:0;
-    background:#fff;
+    margin: 0;
     font-family: Times, Times New Roman, Georgia, serif;
     font-size: 15px;
-}
-
-#curriculo { /* estilo para a div com id currículo */
-    max-width: 100%;
-    margin: 0 auto;
-    padding: 20px;
-    text-align:left;
-    background:#fff;
-}
-
-.foto { /* estilo para a classe foto */
-    display: inline-block;
-    width:180px;
-}
-
-header { /* estilo para a tag header */
-    width: 22%;
-     float: right;
-    background:#f0f4fd;
-    padding: 10px;
-    border-radius: 12px;
-}
-
-address, section { /* estilos para as tags address e section */
-    float: left;
-    width: 70%;
-    font-style:normal;
-    margin-top: 10px;
-    padding: 5px 20px 5px 20px;
-    background:#f5f5f5;
-    border-radius: 10px;
-}
-
-footer { /* estilo para a tag footer */
-    width: 99%;
-    background:#ddd;
-    float: left;
-    margin-bottom: 10px;
     margin-top: 20px;
+}
+
+.foto {
+    width: 120px;
+    margin-left: 10px;
+}
+
+#flex-box{
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #f0f4fd;
+    word-wrap: break-word;
+    border-radius: 15px;
+    margin: 10px;
     padding: 10px;
+    width: 90%;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.logo{
+    flex: 10%;
+    text-align: left;
+}
+
+.menu{
+    flex: 85%;
     text-align: right;
 }
 
-a:link, a:visited, a:active { /* estilo para o link */
-    text-decoration: none;
-    color: #333333;
+section, address{
+    background-color: #e2e2e2;
+    word-wrap: break-word;
+    border-radius: 12px;
+    margin: 10px;
+    padding: 10px;
+    width: 90%;
 }
 
-/* estilo para o link quando o cursor estiver sobre ele */
-a:hover {
-    text-decoration: none;
-    color: #444;
-    text-shadow: 1px 1px 2px gray, 0 0 1em lightgray, 0 0 0.2em #ccc;
+footer{
+    background-color: #b2b9ba;
+    word-wrap: break-word;
+    text-align: right;
+    margin: 10px;
+    padding: 10px;
+    width: 90%;
 }
 
-/* estilo para o link do footer */
+@media only screen and (max-width: 700px) {
+    header,
+    section,
+    address,
+    footer {
+        width: 85%;
+    }
+}
+
+@media only screen and (max-width: 180px) {
+    .foto {
+        width: 50px;
+    }
+}
+
 footer a:link, footer a:visited, footer a:active {
     text-decoration: none;
     color: #333333;
 }
 
-    /* estilo para o link do footer quando o cursor estiver sobre ele */
 footer a:hover {
     text-decoration: none;
     color: #ddd;
@@ -104,8 +115,7 @@ dt {
     font-weight: bold;
 }
 
-/* conteúdo que será inserido após o elemento da lista dt */
-dt::after {
+dt:after {
     content: ":";
 }
 
@@ -117,15 +127,3 @@ dd {
 li {
     text-align: justify;
 }
-    
-table {
-    margin-left: 30px;
-}
-
-table, td {
-    padding: 4px 25px 4px 15px;
-    border: 1px solid;
-    border-collapse: collapse;
-    background:#eef0f6;
-}
-        
